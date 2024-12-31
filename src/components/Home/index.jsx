@@ -1,57 +1,38 @@
 import React from 'react';
 import './home.css';
 import Footer from '../Footer';
-import Slider from 'react-slick';
 
 const Home = () => {
-  // Slick settings for the slideshow
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000, // Slideshow speed
-  };
-
   return (
     <div className="home-container">
       <div className="welcome-text">
-        <h1>Welcome to Our Website!</h1>
-
-        {/* Slideshow Section */}
-        <div className="slideshow">
-          <Slider {...settings}>
-            <div>
-              <img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1" />
-            </div>
-            <div>
-              <img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Slide 2" />
-            </div>
-            <div>
-              <img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 3" />
-            </div>
-          </Slider>
+        <h1>Welcome to LENOVA TAB Website!</h1>
+      {/* Slideshow Section */}
+      <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-
-        {/* Navigation Bar */}
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">Lenovo Tab</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ms-auto">
-                <li className="nav-item"><a className="nav-link active" aria-current="page" href="#features">Features</a></li>
-                <li className="nav-item"><a className="nav-link" href="#testimonials">Testimonials</a></li>
-                <li className="nav-item"><a className="nav-link" href="#cta">Buy Now</a></li>
-                <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-              </ul>
-            </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src="https://motorolain.vtexassets.com/arquivos/moto-tab-g62-pdp-icon-catchall-for-your-best-look-qh283qqv.jpg" alt="Lenovo Tab Image 1" className="d-block w-100" />
           </div>
-        </nav>
+          <div className="carousel-item">
+            <img src="https://img.us.news.samsung.com/us/wp-content/uploads/2019/07/30155346/Product-Image-Galaxy-Tab-S6-2.jpg" alt="Lenovo Tab Image 2" className="d-block w-100" />
+          </div>
+          <div className="carousel-item">
+            <img src="https://images.gizbot.com/600x400/ph-big/img_og/redmi-pad-se-to-go-for-first-sale-today-in-india1713933896.jpg" alt="Lenovo Tab Image 3" className="d-block w-100" />
+          </div>
+        </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
 
       <Footer />
@@ -60,3 +41,4 @@ const Home = () => {
 };
 
 export default Home;
+
