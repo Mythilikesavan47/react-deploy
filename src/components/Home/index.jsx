@@ -34,10 +34,9 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-
-      <Footer />
-    </div>
-  );
+<Footer />
+</div>
+);
 };
 
 export default Home;
