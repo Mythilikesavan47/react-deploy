@@ -7,14 +7,6 @@ const Contact = () => {
     <div className="home-container">
       <section id="contact" class="form-section py-5">
     <div class="container">
-        <h2 class="text-center mb-5" style="font-size: 2.5rem; font-weight: bold; color: #333;">Contact Us</h2>
-        <div class="row">
-            <!-- Contact Information -->
-            <div class="col-md-6">
-                <h5 style="color: #333;">Phone: +99 784-456-7890</h5>
-                <h5 style="color: #333;">Email: info@lenovo.com</h5>
-            </div>
-            
             <!-- Contact Form -->
             <div class="col-md-6">
                 <h5 style="color: #333;">Fill out the form to contact us:</h5>
