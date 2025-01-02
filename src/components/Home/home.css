@@ -1,35 +1,51 @@
-/* Container Styles */
+/* Global Styles */
 .home-container {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   padding: 20px;
+  margin: 0;
 }
 
-/* Welcome Text */
-.welcome-text {
-  text-align: center;
-  margin: 20px 0;
+/* Section Styling */
+#features {
+  background-color: black;
+  padding: 60px 0;
 }
 
-.welcome-text h1 {
-  font-size: 2.5rem;
-  color: #333;
+#features h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 40px;
 }
 
-/* Carousel Styles */
-.carousel-inner img {
+/* Image Scroll Container */
+.image-scroll-container {
+  position: relative;
   width: 100%;
+  overflow: hidden;
+}
+
+.image-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: scroll-images 20s linear infinite;  /* Adjust this for the scrolling speed */
+}
+
+.image-scroll img {
+  max-width: 100%;
   height: auto;
+  flex: 0 0 auto;
+  margin-right: 10px;  /* Small space between images */
 }
 
-/* Add some padding to ensure that the images do not overlap */
-.carousel-item {
-  padding: 20px;
-}
-
-/* Add some space between the carousel and footer */
-.carousel {
-  margin-bottom: 30px;
+/* Keyframe Animation for Horizontal Scroll */
+@keyframes scroll-images {
+  0% {
+    transform: translateX(0);  /* Start from the left edge */
+  }
+  100% {
+    transform: translateX(-100%);  /* End at the leftmost point */
+  }
 }
 
 /* Footer Styling */
@@ -42,14 +58,27 @@ footer {
 
 footer p {
   margin: 0;
+  font-size: 1rem;
+  color: white;
 }
 
-/* For better visibility */
-.carousel-indicators button {
-  background-color: rgba(0, 0, 0, 0.5);
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  #features h1 {
+    font-size: 2.5rem; /* Adjust title font size on smaller screens */
+  }
+
+  .image-scroll img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 5px;  /* Reduce margin on smaller screens */
+  }
 }
-.carousel-indicators .active {
-  background-color: #007bff;
+
+@media (max-width: 480px) {
+  #features h1 {
+    font-size: 2rem; /* Further reduce title size for very small screens */
+  }
 }
 
 
