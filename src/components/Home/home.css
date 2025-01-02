@@ -1,17 +1,23 @@
-/* Basic styling for the home screen */
 .home-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full screen height */
-  background-color: #f4f4f9;
-  text-align: center;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;     /* Center content vertically */
+  height: 100vh;           /* Full viewport height */
+  text-align: center;      /* Center text inside */
+  padding: 0 2rem;         /* Add some padding on the sides */
 }
 
+.welcome-text h1 {
+  font-size: 3rem; /* Large font size for the welcome message */
+  color: #333;     /* Dark color for the text */
+  font-weight: bold; /* Bold text */
+  margin: 0;        /* Remove any default margin */
+}
+
+/* Optional: Adjust carousel and footer layout if necessary */
 .carousel-inner img {
-  width: 70%;
-  height: 700px;
   object-fit: cover;
+  height: 500px;
 }
 
 
