@@ -1,25 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './navbar.css';
+import logo from '../../assets/images/star-bucks.png'
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false); 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">Lenovo Tab</a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><a className="nav-link active" aria-current="page" href="#features">Features</a></li>
-            <li className="nav-item"><a className="nav-link" href="#testimonials">Testimonials</a></li>
-            <li className="nav-item"><a className="nav-link" href="#cta">Buy Now</a></li>
-            <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
+    <nav className="navbar">
+      <div className="logo">
+        <img src={logo} alt="Logo" />
+      </div>
+      
+      <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+        </ul>
+      </div>
+      
+      {/* Hamburger button for mobile */}
+      <div className="hamburger" onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
-
