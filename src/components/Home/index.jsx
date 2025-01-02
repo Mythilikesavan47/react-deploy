@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home-container">
       <div className="welcome-text">
         <h1>Welcome to LENOVA TAB Website!</h1>
-      {/* Slideshow Section */}
+    
       <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -34,6 +34,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      
 <Footer />
 </div>
 );
