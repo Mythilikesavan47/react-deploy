@@ -3,12 +3,12 @@
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;  /* Light background */
+  background-color: #7ec841;  /* Light background */
 }
 
 /* Section Styling */
 #features {
-  background-color: black;
+  background-color: rgb(182, 0, 70);
   padding: 60px 0;
 }
 
@@ -52,7 +52,7 @@
 /* Footer Styling */
 footer {
   background-color: #333;
-  color: white;
+  color: rgb(96, 87, 133);
   padding: 20px;
   text-align: center;
 }
