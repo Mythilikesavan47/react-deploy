@@ -21,18 +21,18 @@ const Home = () => {
                 alt="Feature 2"
               />
               <img
-src="https://images.gizbot.com/600x400/ph-big/img_og/redmi-pad-se-to-go-for-first-sale-today-in-india1713933896.jpg"
-className="d-block w-100 img-fluid"
-alt="Feature 3"
-/>
-</div>
-</div>
-</div>
-</section>
+                src="https://images.gizbot.com/600x400/ph-big/img_og/redmi-pad-se-to-go-for-first-sale-today-in-india1713933896.jpg"
+                className="d-block w-100 img-fluid"
+                alt="Feature 3"
+              />
+           </div>
+          </div>
+        </div>
+     </section>
 
-<Footer />  {/* Footer component correctly placed */}
-</div>
-);
+    <Footer />  {/* Footer component correctly placed */}
+ </div>
+ );
 };
 
 export default Home;
