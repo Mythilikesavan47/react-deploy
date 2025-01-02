@@ -1,27 +1,32 @@
 /* Basic styling for the home screen */
 .home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full screen height */
-    background-color: #f4f4f9;
-    text-align: center;
-  }
-  
-  .welcome-text {
-    background-color: #333;
-    color: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .welcome-text h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .welcome-text p {
-    font-size: 18px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+.carousel-inner img {
+  width: 70%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.welcome-text {
+  background-color: #333;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome-text p {
+  font-size: 18px;
+}
