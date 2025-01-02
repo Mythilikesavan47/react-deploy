@@ -1,9 +1,9 @@
 /* Global Styles */
 .home-container {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  padding: 20px;
   margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;  /* Light background */
 }
 
 /* Section Styling */
@@ -22,20 +22,21 @@
 .image-scroll-container {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden;  /* Hide overflow for horizontal scrolling */
 }
 
+/* Image Scroll Styling */
 .image-scroll {
   display: flex;
   flex-wrap: nowrap;
-  animation: scroll-images 20s linear infinite;  /* Adjust this for the scrolling speed */
+  animation: scroll-images 20s linear infinite;  /* Adjust speed by changing 20s */
 }
 
 .image-scroll img {
   max-width: 100%;
   height: auto;
   flex: 0 0 auto;
-  margin-right: 10px;  /* Small space between images */
+  margin-right: 10px;  /* Space between images */
 }
 
 /* Keyframe Animation for Horizontal Scroll */
@@ -44,7 +45,7 @@
     transform: translateX(0);  /* Start from the left edge */
   }
   100% {
-    transform: translateX(-100%);  /* End at the leftmost point */
+    transform: translateX(-100%);  /* Scroll all the way to the left */
   }
 }
 
@@ -59,7 +60,6 @@ footer {
 footer p {
   margin: 0;
   font-size: 1rem;
-  color: white;
 }
 
 /* Mobile Responsive Adjustments */
@@ -80,5 +80,6 @@ footer p {
     font-size: 2rem; /* Further reduce title size for very small screens */
   }
 }
+
 
 
