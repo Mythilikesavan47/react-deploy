@@ -1,16 +1,55 @@
+/* Container Styles */
 .home-container {
-  display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center;     /* Center content vertically */
-  height: 100vh;           /* Full viewport height */
-  text-align: center;      /* Center text inside */
-  padding: 0 2rem;         /* Add some padding on the sides */
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
-/* Optional: Adjust carousel and footer layout if necessary */
+/* Welcome Text */
+.welcome-text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.welcome-text h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Carousel Styles */
 .carousel-inner img {
-  object-fit: cover;
-  height: 500px;
+  width: 100%;
+  height: auto;
+}
+
+/* Add some padding to ensure that the images do not overlap */
+.carousel-item {
+  padding: 20px;
+}
+
+/* Add some space between the carousel and footer */
+.carousel {
+  margin-bottom: 30px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* For better visibility */
+.carousel-indicators button {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-indicators .active {
+  background-color: #007bff;
 }
 
 
