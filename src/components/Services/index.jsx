@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';  // Ensure the file is in the same folder
+import './Service.css';  // Ensure the file is in the same folder
 
 const Services = () => {
   return (
