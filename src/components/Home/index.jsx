@@ -4,23 +4,6 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      {/* Navigation Bar */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">Lenovo Tab</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item"><a className="nav-link active" href="#features">Features</a></li>
-              <li className="nav-item"><a className="nav-link" href="#testimonials">Testimonials</a></li>
-              <li className="nav-item"><a className="nav-link" href="#cta">Buy Now</a></li>
-              <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
       {/* Slideshow Section */}
       <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -61,46 +44,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* Features Section */}
-      <section id="features" className="container my-5">
-        <h2 className="text-center mb-5">Amazing Features</h2>
-        <div className="row">
-          {/* Feature 1 */}
-          <div className="col-md-4">
-            <div className="feature-card text-center">
-              <div className="feature-icon mb-4">
-                <i className="fas fa-battery-full"></i>
-              </div>
-              <h5 className="card-title">Long Battery Life</h5>
-              <p className="card-text">Enjoy all-day performance with a battery that lasts up to 12 hours. Never worry about running out of power!</p>
-            </div>
-          </div>
-
-          {/* Feature 2 */}
-          <div className="col-md-4">
-            <div className="feature-card text-center">
-              <div className="feature-icon mb-4">
-                <i className="fas fa-camera"></i>
-              </div>
-              <h5 className="card-title">High-Resolution Camera</h5>
-              <p className="card-text">Capture stunning photos and videos with the advanced camera, designed for quality snapshots in any environment.</p>
-            </div>
-          </div>
-
-          {/* Feature 3 */}
-          <div className="col-md-4">
-            <div className="feature-card text-center">
-              <div className="feature-icon mb-4">
-                <i className="fas fa-cogs"></i>
-              </div>
-              <h5 className="card-title">Fast Performance</h5>
-              <p className="card-text">Powered by the latest processor, enjoy a smooth and fast experience whether for gaming, browsing, or multitasking.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
   );
 };
 
