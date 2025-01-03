@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.34ecf13b.css",
+    "main.css": "/react-deploy/static/css/main.8c018f79.css",
     "main.js": "/react-deploy/static/js/main.d5d2654b.js",
     "static/media/star-bucks.png": "/react-deploy/static/media/star-bucks.6e61abea17e685a9780b.png",
     "index.html": "/react-deploy/index.html",
-    "main.34ecf13b.css.map": "/react-deploy/static/css/main.34ecf13b.css.map",
+    "main.8c018f79.css.map": "/react-deploy/static/css/main.8c018f79.css.map",
     "main.d5d2654b.js.map": "/react-deploy/static/js/main.d5d2654b.js.map"
   },
   "entrypoints": [
-    "static/css/main.34ecf13b.css",
+    "static/css/main.8c018f79.css",
     "static/js/main.d5d2654b.js"
   ]
 }
