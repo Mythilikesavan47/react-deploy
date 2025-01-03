@@ -1,53 +1,37 @@
-import React from "react";
-import "./Services.css"; // Ensure this path is correct for your project
+import React from 'react';
+import './Services.css';  // Ensure the file is in the same folder
 
 const Services = () => {
   return (
-    <section id="services" className="services-section py-5">
+    <section id="services" className="services-section">
       <div className="container">
-        <h2 className="text-center mb-5">Our Amazing Services</h2>
-        <div className="row">
+        <h2 className="services-heading">Our Amazing Services</h2>
+        <div className="services-cards">
           {/* Service 1 */}
-          <div className="col-md-4">
-            <div className="service-card shadow-lg">
-              <div className="service-icon">
-                <i className="fas fa-battery-full"></i>
-              </div>
-              <h5 className="service-title">Long Battery Life</h5>
-              <p className="service-description">
-                Enjoy all-day performance with a battery that lasts up to 12
-                hours. Never worry about running out of power during your work or
-                play!
-              </p>
-            </div>
+          <div className="service-card">
+            <i className="fas fa-laptop-code service-icon"></i>
+            <h3 className="service-title">Web Development</h3>
+            <p className="service-description">
+              We create responsive and beautiful websites that cater to your business needs.
+            </p>
           </div>
 
           {/* Service 2 */}
-          <div className="col-md-4">
-            <div className="service-card shadow-lg">
-              <div className="service-icon">
-                <i className="fas fa-camera"></i>
-              </div>
-              <h5 className="service-title">High-Resolution Camera</h5>
-              <p className="service-description">
-                Capture stunning photos and videos with the advanced camera
-                features, perfect for every scenario.
-              </p>
-            </div>
+          <div className="service-card">
+            <i className="fas fa-mobile-alt service-icon"></i>
+            <h3 className="service-title">Mobile App Development</h3>
+            <p className="service-description">
+              Our team specializes in developing mobile applications with exceptional user experience.
+            </p>
           </div>
 
           {/* Service 3 */}
-          <div className="col-md-4">
-            <div className="service-card shadow-lg">
-              <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-              </div>
-              <h5 className="service-title">Fast Performance</h5>
-              <p className="service-description">
-                Powered by cutting-edge technology, the Lenovo Tab offers fast
-                and seamless performance for all tasks.
-              </p>
-            </div>
+          <div className="service-card">
+            <i className="fas fa-cloud service-icon"></i>
+            <h3 className="service-title">Cloud Services</h3>
+            <p className="service-description">
+              We offer cloud solutions that improve scalability and performance for your business.
+            </p>
           </div>
         </div>
       </div>
