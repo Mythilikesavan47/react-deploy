@@ -11,7 +11,7 @@ h1 {
 
 p {
   font-size: 1.8rem;
-  color: #dbe661;
+  color: #8a068c;
 }
 
 /* Amazing Features Section */
@@ -35,7 +35,7 @@ p {
 
 /* Customer Testimonials Section */
 .testimonial-card {
-  background-color: #f20fb2;
+  background-color: #c7e490;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -50,7 +50,7 @@ p {
 .testimonial-card h5 {
   margin-top: 10px;
   font-weight: bold;
-  color: #fd00ba;
+  color: #ebf2ae;
 }
 
 .testimonial-img {
