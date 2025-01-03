@@ -6,12 +6,12 @@
 
 h1 {
   font-size: 3rem;
-  color: #f6faff;
+  color: #aaddca;
 }
 
 p {
   font-size: 1.8rem;
-  color: #72c9c9;
+  color: #dbe661;
 }
 
 /* Amazing Features Section */
@@ -26,7 +26,7 @@ p {
 
 .feature-icon {
   font-size: 3rem;
-  color: #fafdff;
+  color: #c9defa;
 }
 
 .feature-card:hover {
@@ -35,7 +35,7 @@ p {
 
 /* Customer Testimonials Section */
 .testimonial-card {
-  background-color: #fff;
+  background-color: #f20fb2;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -44,13 +44,13 @@ p {
 
 .testimonial-card p {
   font-style: italic;
-  color: #ffa7a7;
+  color: #000000;
 }
 
 .testimonial-card h5 {
   margin-top: 10px;
   font-weight: bold;
-  color: #fcfcfc;
+  color: #fd00ba;
 }
 
 .testimonial-img {
