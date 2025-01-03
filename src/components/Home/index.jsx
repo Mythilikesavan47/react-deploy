@@ -32,7 +32,7 @@ const Home = () => {
         </div>
       </section>
 
-    </div> {/* Closing the home-container div */}
+    </div> 
   );
 };
 
