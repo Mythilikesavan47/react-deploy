@@ -13,3 +13,50 @@ p {
   font-size: 1.2rem;
   color: #333;
 }
+
+/* Amazing Features Section */
+.feature-card {
+  transition: transform 0.3s ease;
+  background-color: transparent;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+}
+
+/* Customer Testimonials Section */
+.testimonial-card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #555;
+}
+
+.testimonial-card h5 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
