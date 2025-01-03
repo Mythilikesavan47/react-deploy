@@ -19,7 +19,7 @@
 }
 
 .service-card {
-  background-color: white;
+  background-color: rgb(108, 20, 20);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -34,7 +34,7 @@
 
 .service-icon {
   font-size: 3rem;
-  color: #007bff;
+  color: #07274a;
   margin-bottom: 20px;
 }
 
@@ -42,12 +42,12 @@
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #333;
+  color: #c9dbf2;
 }
 
 .service-description {
   font-size: 1rem;
-  color: #777;
+  color: #ffffff;
 }
 
 
