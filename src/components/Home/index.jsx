@@ -44,8 +44,11 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+    </div> {/* Closing the home-container div */}
   );
 };
 
 export default Home;
+
 
