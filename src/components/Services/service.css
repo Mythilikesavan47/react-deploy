@@ -1,17 +1,18 @@
 .services-container {
-  background-color: #c5c95a;
+  background-color: #e2e2e2;
   padding: 40px;
 }
 
 h1 {
   font-size: 3rem;
   text-align: center;
-  color: #67ecf8;
+  color: #007bff;
 }
 
 .service-card {
-  background-color: #500505;
+  background-color: #fff;
   padding: 20px;
   margin: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
