@@ -1,17 +1,17 @@
 .about-container {
-  background-color: #f1f1f1;
+  background-color: #652424;
   padding: 40px;
   font-family: 'Arial', sans-serif;
 }
 
 h1 {
   font-size: 3rem;
-  color: #007bff;
+  color: #f6faff;
 }
 
 p {
-  font-size: 1.2rem;
-  color: #333;
+  font-size: 1.8rem;
+  color: #72c9c9;
 }
 
 /* Amazing Features Section */
@@ -26,7 +26,7 @@ p {
 
 .feature-icon {
   font-size: 3rem;
-  color: #007bff;
+  color: #fafdff;
 }
 
 .feature-card:hover {
@@ -44,13 +44,13 @@ p {
 
 .testimonial-card p {
   font-style: italic;
-  color: #555;
+  color: #ffa7a7;
 }
 
 .testimonial-card h5 {
   margin-top: 10px;
   font-weight: bold;
-  color: #007bff;
+  color: #fcfcfc;
 }
 
 .testimonial-img {
