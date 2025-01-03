@@ -1,18 +1,21 @@
 import React from 'react';
-import './service.css';
-import Footer from '../Footer';
+import './Services.css';
 
 const Services = () => {
   return (
-    <div className="home-container">
-      <div className="welcome-text">
-        <h1>Services</h1>
-        <p>Your one-stop solution for everything you need.</p>
+    <div className="services-container">
+      <h1 className="text-center">Our Services</h1>
+      <div className="service-card">
+        <h3>Repair and Support</h3>
+        <p>We offer reliable and quick repair and support for all Lenovo Tab products.</p>
       </div>
-      <Footer />
-
+      <div className="service-card">
+        <h3>Software Assistance</h3>
+        <p>Our team provides top-notch software support and troubleshooting services.</p>
+      </div>
     </div>
   );
 };
 
 export default Services;
+
