@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; 
-import logo from '../../assets/images/star-bucks.png';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,9 +16,9 @@ const Navbar = () => {
     backgroundColor: '#fff',  
   };
 
-  // Inline style for the logo
+  // Inline style for the logo (removed image)
   const logoStyle = {
-    width: '120px',  
+    // Remove the image style here, logo will no longer need the width
   };
 
   const navLinksStyle = {
@@ -74,9 +73,10 @@ const Navbar = () => {
 
   return (
     <nav style={navbarStyle}>
-      {/* Logo */}
+      {/* Logo section removed */}
       <div className="logo" style={logoStyle}>
-        <img src={logo} alt="Logo" />
+        {/* No image now, can be replaced with text/logo */}
+        <span style={{ fontSize: '20px', fontWeight: 'bold' }}>My Brand</span>
       </div>
 
       {/* Navigation Links (inline) */}
@@ -110,3 +110,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
