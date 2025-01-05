@@ -4,9 +4,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home-container">
-
-      {/* Slideshow Section (with no buttons and indicators) */}
-      <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+     <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="https://motorolain.vtexassets.com/arquivos/moto-tab-g62-pdp-icon-catchall-for-your-best-look-qh283qqv.jpg" alt="Lenovo Tab Image 1" className="d-block mx-auto" />
@@ -19,8 +17,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* Video Section */}
       <section id="video" className="container my-5">
         <h2 className="text-center mb-5">Discover the Lenovo Tab</h2>
         <div className="row justify-content-center">

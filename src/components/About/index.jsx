@@ -8,8 +8,6 @@ const About = () => {
       <p className="text-center">
         The Lenovo Tab is a cutting-edge device designed for both work and play. It combines power, portability, and versatility, making it the perfect choice for those on the go.
       </p>
-
-      {/* Amazing Features Section */}
       <section id="features" className="container my-5">
         <h2 className="text-center mb-5">Amazing Features</h2>
         <div className="row">
