@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import logo from '../../assets/images/image.png';
+import logo from '../../assets/images/star-bucks.png'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false); 
@@ -15,7 +15,6 @@ const Navbar = () => {
         <img src={logo} alt="Logo" />
       </div>
       
-      {/* Navigation Links (Inline) */}
       <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
         <ul>
           <li><Link to="/">Home</Link></li>
@@ -36,4 +35,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
